@@ -26,4 +26,4 @@ layout: home
 </html>
 
 <br>
-Click <a href="/import2/">here</a> to <u>import</u> your own data.
+<a href="/import2/">Click here to import your own data.</a>
