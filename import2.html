@@ -1,0 +1,20 @@
+---
+layout: post
+permalink: import2/
+---
+<script src="/js/import2.js"></script>
+   <script type="text/javascript" src="/js/import2.js"></script>
+    <input type="file" id="csvFileInput" onchange="handleFiles(this.files)"
+            accept=".csv">
+
+   <button onclick="analyze()">Start Analysis</button>
+</br>
+</br>
+<button onclick="OneVTwo()">Location 1 vs. Location 2</button>
+</br>
+<button onclick="OneVMerge()">Location 1 vs. Merged Locations</button>
+</br>
+<button onclick="TwoVMerge()">Location 2 vs. Merged Locations</button>
+</br>
+</br>
+<p id="finalresults"></p>
