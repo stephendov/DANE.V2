@@ -210,6 +210,7 @@ function analyze() {
 
 function OneVTwo() {
 
+  analyze();
    var t1num = Math.abs(mean1 - mean2);
     var t1denom1 = (Math.pow(stddev1, 2)) / loc1array.length;
     var t1denom2 = (Math.pow(stddev2, 2)) / loc2array.length;
@@ -225,6 +226,7 @@ function OneVTwo() {
 
 function OneVMerge() {
 
+  analyze();
    var t2num = Math.abs(mean1 - meanM);
     var t2denom1 = (Math.pow(stddev1, 2)) / loc1array.length;
     var t2denom2 = (Math.pow(stddevM, 2)) / mergearray.length;
@@ -240,6 +242,7 @@ function OneVMerge() {
 
 function TwoVMerge() {
 
+  analyze();
    var t3num = Math.abs(mean2 - meanM);
     var t3denom1 = (Math.pow(stddev2, 2)) / loc2array.length;
     var t3denom2 = (Math.pow(stddevM, 2)) / mergearray.length;
