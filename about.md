@@ -15,4 +15,5 @@ Analyzsing Data: Managers or Individuals which have been granted administrative 
 
 The steps for analysis are:
 1) Click on the 'Chose File' button to import the file
-2) Click on the appropriate button with the locations they wish to compare.
+2) Click the 'Start Analysis' button
+3) Click on the appropriate button with the locations they wish to compare.
