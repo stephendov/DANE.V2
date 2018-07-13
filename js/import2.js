@@ -320,10 +320,10 @@ console.log("Critical T-Value: " + critVal12);
 
   if (oneVStwo < (-1 * critVal12) || oneVStwo > critVal12) {
     outcome12 = 1;
-    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the wait times between Locations 1 and 2 are signicantly different!";
+    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the average wait times between Locations 1 and 2 are signicantly different!";
   } else {
     outcome12 = 0;
-    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the wait times between Locations 1 and 2 are not signicantly different.";
+    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the average wait times between Locations 1 and 2 are not signicantly different.";
   }
  console.log(outcome12);
 
@@ -348,10 +348,10 @@ console.log("Critical T-Value: " + critVal1M);
 
   if (oneVSMerge < (-1 * critVal1M) || oneVSMerge > critVal1M) {
     outcome1M = 1;
-    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the wait times between Locations 1 and the Merged Locations are signicantly different!";
+    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the average wait times between Locations 1 and the Merged Locations are signicantly different!";
   } else {
     outcome1M = 0;
-    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the wait times between Locations 1 and the Merged Locations are not signicantly different.";
+    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the average wait times between Locations 1 and the Merged Locations are not signicantly different.";
   }
  console.log(outcome1M);
 }
@@ -376,10 +376,10 @@ console.log("Critical T-Value: " + critVal2M);
 
   if (twoVSMerge < (-1 * critVal2M) || twoVSMerge > critVal2M) {
     outcome2M = 1;
-    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the wait times between Locations 2 and the Merged Locations are signicantly different!";
+    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the average wait times between Locations 2 and the Merged Locations are signicantly different!";
   } else {
     outcome2M = 0;
-    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the wait times between Locations 2 and the Merged Locations are not signicantly different.";
+    document.getElementById("finalresults").innerHTML = "Based on the data submitted, the average wait times between Locations 2 and the Merged Locations are not signicantly different.";
   }
  console.log(outcome2M);
 }
