@@ -27,3 +27,5 @@ layout: home
 
 <br>
 <a href="/import2/">Click here to import your own data.</a>
+<br/>
+<a href="https://app.netlify.com/sites/trac/forms/5b4779840ff8d41207a8e4b0"> Are you an Administrator? Click here to export your Data.</a>
